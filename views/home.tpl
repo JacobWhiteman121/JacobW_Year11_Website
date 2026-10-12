@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
     <title>Home Page</title>
@@ -13,5 +13,6 @@
 
     <h2>Personal Profile</h2>
     <h1>Jacob Whiteman</h1>
+    <img src="static/imageofme.jpg" alt="About Me">
 </body>
 </html>
