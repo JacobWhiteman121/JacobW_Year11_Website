@@ -7,7 +7,9 @@ h1 {
 body {
     font-family: 'Inter';
     font-weight: 200;
+    background-color: lightblue;
 }
+
 nav {
     background-color: lightgrey;
     margin: 0;
@@ -16,7 +18,9 @@ nav {
     padding-left: 500px;
     padding-right: 500px;
 }
-html {
-    background-color: lightblue;
+
+b {
+    color: blue;
+    font-style: bold;
 }
 

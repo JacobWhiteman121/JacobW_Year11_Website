@@ -6,7 +6,7 @@
 </head>
 <body>
     <nav>
-        <a href="/page1">Truths vs Myths</a>
+        <b><a href="/page1">Truths vs Myths</a></b>
         <a href="/page2">NZ Teen Issues</a>
         <a href="/page3">Impacts & Solutions</a>
     </nav>
