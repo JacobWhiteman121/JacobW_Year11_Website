@@ -11,8 +11,8 @@ def home():
 def page1():
     return template('page1')  # Manual template rendering
 
-@route('/contact')
-def contact():
+@route('/page2')
+def page2():
     return {}
 
 # ROUTE FOR STATIC FILES (CSS, images, JS)
