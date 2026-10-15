@@ -22,4 +22,4 @@ def server_static(filename):
 
 # START SERVER
 if __name__ == "__main__":
-    run(host='localhost', port=8080, debug=True, reloader=True) 
+    run(host='localhost', port=2010, debug=True, reloader=True) 

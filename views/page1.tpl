@@ -7,8 +7,8 @@
 <body>
     <nav>
         <b><a href="/page1">Truths vs Myths</a></b>
-        <a href="/page2">NZ Teen Issues</a>
-        <a href="/page3">Impacts & Solutions</a>
+        <b><a href="/page2">NZ Teen Issues</a></b>
+        <b><a href="/page3">Impacts & Solutions</a></b>
     </nav>
 
     <h2>Personal Profile</h2>
