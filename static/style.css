@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Inter);
 
 h1 {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 body {
     font-family: 'Inter';
     font-weight: 200;
     background: lightblue;
+    margin: 0px;
 }
 
 nav {
@@ -20,8 +21,27 @@ b {
     background-color: grey;
     border-radius: 10px;
     border: 1px solid grey;
-    padding: 5px 5px;
+    padding: 50px 25px;
     margin: 20px 10px;
 }
 
 
+h4 {
+    width: 378px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+img {
+    align-items: right;
+    display: inline-block;
+}
+
+div {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.conatiner{
+    display:flex;
+}
