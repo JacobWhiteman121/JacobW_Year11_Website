@@ -20,5 +20,18 @@
             <img src="static/imageofme.jpg" alt="About Me">
         </div>
     </div>
+    <div>
+        <a href="/page1" class="btn-next">Next Page</a>
+    </div>
+    <div class="massive-container">
+        <div class="circle-item">
+            <img src="static/gaming.jpg" alt="Gaming image" class="circle-img">
+            <p>Text for first image</p>
+        </div>
+        <div class="circle-item">
+            <img src="static/football.jpg" alt="Football image" class="circle-img">
+            <p>Text for second image</p>
+        </div>
+    </div>
 </body>
 </html>
