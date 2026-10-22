@@ -23,15 +23,20 @@
     <div>
         <a href="/page1" class="btn-next">Next Page</a>
     </div>
+    <h2 class="title1">Hobbies / Personal Interests</h2>
     <div class="massive-container">
         <div class="circle-item">
             <img src="static/gaming.jpg" alt="Gaming image" class="circle-img">
-            <p>Text for first image</p>
+            <p>I like playing video games</p>
         </div>
         <div class="circle-item">
             <img src="static/football.jpg" alt="Football image" class="circle-img">
-            <p>Text for second image</p>
+            <p>My favorite sport is football</p>
         </div>
     </div>
+    <h2 class="title2">My Perspective</h2>
+    <div class="mini-container">
+        <p>hi</p>
+    <div>
 </body>
 </html>
