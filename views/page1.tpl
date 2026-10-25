@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html>
 <head>
-    <title>Home Page</title>
+    <title>Page 1</title>
     <link rel="stylesheet" href="/static/style.css">
     <nav>
         <f><a href="/page1">Truths vs Myths</a></f>
@@ -18,6 +18,7 @@
         </div>
         <div>
             <img class="small" src="static/truthvsmyth.jpg" alt="Image of Truths VS Myths">
+            <h4>Hi I'm Jacob Whiteman, a year 11 student at Sacred Heart College. Welcome to my website that goes through social media & youth mental health issues. This website answers many different questions, and shows my perspective.</h4>
         </div>
     </div>
     <div>

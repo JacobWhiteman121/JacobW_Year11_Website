@@ -13,7 +13,11 @@ def page1():
 
 @route('/page2')
 def page2():
-    return {}
+    return template('page2')
+
+@route('/page3')
+def page3():
+    return template('page3')
 
 # ROUTE FOR STATIC FILES (CSS, images, JS)
 @route('/static/<filename>')
