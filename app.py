@@ -1,31 +1,32 @@
-from bottle import Bottle, run, route, template, view, static_file
+
+from bottle import Bottle, run, template, view, static_file
 
 app = Bottle()
 
 # ROUTES FOR PAGES
 
-@route('/')
-@view('home')  # Uses views/home.tpl
+@app.route('/')
+@view('home')
 def home():
-    return {}  # Dictionary for template variables if needed
+    return {}
 
-@route('/page1')
+@app.route('/page1')
 def page1():
-    return template('page1')  # Manual template rendering
+    return template('page1')
 
-@route('/page2')
+@app.route('/page2')
 def page2():
     return template('page2')
 
-@route('/page3')
+@app.route('/page3')
 def page3():
     return template('page3')
 
-# ROUTE FOR STATIC FILES (CSS, images, JS)
-@route('/static/<filename>')
+# ROUTE FOR STATIC FILES
+@app.route('/static/<filename>')
 def server_static(filename):
     return static_file(filename, root='./static')
 
-# START SERVER
+# START SERVER LOCALLY
 if __name__ == "__main__":
-    run(host='localhost', port=5379, debug=True, reloader=True) 
+    run(app=app, host='localhost', port=5379, debug=True, reloader=True)
