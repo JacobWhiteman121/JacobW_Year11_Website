@@ -1,4 +1,6 @@
-from bottle import run, route, template, view, static_file
+from bottle import Bottle, run, route, template, view, static_file
+
+app = Bottle()
 
 # ROUTES FOR PAGES
 
