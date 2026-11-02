@@ -161,3 +161,7 @@ f {
 .small {
     width: 220px;
 }
+
+html {
+    zoom: 160%;
+}
