@@ -36,7 +36,7 @@
     </div>
     <h2 class="title2">My Perspective</h2>
     <div class="mini-container">
-        <p>hi</p>
+        <p>As a young Catholic New Zealander, digital wellbeing is deeply tied to protecting human dignity and fulfilling our social duty online. This mirrors the teachings of Pope Francis, who warns that social media can alienate us into an unreal world of comparison. He reminds us that happiness is not an app you can download, inspiring me to protect my real world mental peace against digital toxicity.</p>
     <div>
 </body>
 </html>

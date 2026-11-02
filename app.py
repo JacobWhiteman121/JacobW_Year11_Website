@@ -29,4 +29,4 @@ def server_static(filename):
 
 # START SERVER LOCALLY
 if __name__ == "__main__":
-    run(app=app, host='localhost', port=5379, debug=True, reloader=True)
+    run(app=app, host='localhost', port=5499, debug=True, reloader=True)
